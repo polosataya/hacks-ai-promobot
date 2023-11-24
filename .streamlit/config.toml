@@ -1,0 +1,7 @@
+[theme]
+primaryColor="#1f91da"
+backgroundColor="#f4f6fa"
+secondaryBackgroundColor="#d8eff5"
+textColor="#000000"
+maxUploadSize = 5
+
