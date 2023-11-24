@@ -4,8 +4,8 @@ import pandas as pd
 import base64
 
 st.set_page_config(
-    page_title="Маршруты инкассации платежных терминалов",
-    page_icon="🚐", layout="wide",
+    page_title="Обработка обращений граждан",
+    page_icon="🤖", layout="wide",
     initial_sidebar_state="expanded",
     menu_items={'Get Help': None,'Report a bug': None,'About': None})
 
