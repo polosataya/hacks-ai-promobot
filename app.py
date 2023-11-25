@@ -2,7 +2,6 @@ import hydralit as hy
 import streamlit as st
 import pandas as pd
 import base64
-#from catboost import CatBoostClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 import joblib
@@ -174,7 +173,6 @@ def upload_and_display_page():
         # Загрузка файла
         uploaded_data = load_upload(uploaded_file)
 
-        preprocess_text(uploaded_data)
         uploaded_data['text_clean'], uploaded_data['tokens'] = preprocess_text(uploaded_data['Текст инцидента'])
         tfidf_embed = tfidf_embeding(model=tfidf, df=uploaded_data['text_clean'])
 
